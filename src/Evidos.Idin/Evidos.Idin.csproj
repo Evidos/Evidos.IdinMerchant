@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Authors>Evidos</Authors>
+    <Product>Evidos iDIN</Product>
+    <Copyright>Copyright 2018-2019 © Evidos</Copyright>
+    <PackageProjectUrl>https://github.com/Evidos/iDINLibrary</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>Evidos.Idin</PackageId>
+    <PackageTags>iDIN</PackageTags>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <PackageReference Include="ConfigureAwait.Fody" Version="3.1.0" PrivateAssets="all"/>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens.Saml" Version="5.4.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="4.5.0" />
+  </ItemGroup>
+</Project>
